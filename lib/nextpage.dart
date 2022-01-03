@@ -38,7 +38,6 @@ class _HomepageState extends State<Homepage> {
       body: ListView.builder(
 
         itemBuilder: (BuildContext context, int index){
-          //Text(products[index]['product_brand'])
           return Card(
             margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
             shape: RoundedRectangleBorder(
